@@ -14,7 +14,7 @@ def to_morse_code(text):
 '0':' -----',',':' --..--','.':' .-.-.-',
 '(':' -.--.',')':' -.--.-'
 }
-    morse_code = " "
+    morse_code = ""
 
     for x in text:
         morse_code += code[x.lower()]
